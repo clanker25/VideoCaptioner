@@ -1,0 +1,12 @@
+name: 问题咨询 Question
+description: 向作者咨询软件使用或配置相关的问题 | Consult about software usage or configuration
+
+labels: ["question"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🤔 问题描述 Problem Description
+    validations:
+      required: false
